@@ -1,0 +1,34 @@
+/* HoW It Works HIW*/
+
+.hiw h2 {
+  text-align: center;
+
+}
+
+.hiw-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.hiw-container-card {
+  padding: 36px;
+  box-shadow: 3px 3px 3px 3px rgb(230,230,230);
+}
+
+.hiw-container-card img {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.hiw-container-card h3 {
+  text-align: center;
+}
+
+.hiw-container-card p {
+  text-align: center;
+  opacity: 0.7;
+}

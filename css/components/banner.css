@@ -1,0 +1,36 @@
+.banner {
+  background-image: url(../../images/background.png);
+  background-size: cover;
+  padding: 200px 0;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.banner-card {
+  color: white;
+}
+
+.banner-card p {
+  opacity: 0.7;
+}
+
+.banner-card a {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 1;
+  border-radius: 5px;
+}
+
+.banner-card a:hover {
+  opacity: 0.95;
+}
+
